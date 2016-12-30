@@ -137,6 +137,9 @@ class DockerCompose:
                     else:
                         service_command.extend(value.split(' '))
 
+                def cpu_quota():
+                    pass  #unsupported
+
                 def expose():
                     pass  # unsupported
 
